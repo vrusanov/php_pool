@@ -37,7 +37,7 @@ More Object Oriented Programming with PHP
 Day 08 [subject] [80/100]
 Even more Object Oriented Programming with PHP
 
-Day 09 [subject] [0/100]
+Day 09 [subject] [70/100]
 JavsScript | jQuery | Ajax
 
 rush01 [subject] [0/100]
