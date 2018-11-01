@@ -1,10 +1,12 @@
 # php_pool
 PHP_pool
 SHORT INTRODUCTION:
+
 The aim of this PHP Boot camp is to learn basics of web programming in two super-intensive weeks (about 190 hours with a computer). This project is the gateway to all of the 42 curriculum web projects. It addresses the fundamentals related to this technology including daily projects and weekend rushes.
 
 Objectives - HTML/CSS | PHP Functions | Web Servers | SQL | PHP Objects | javaScript | jQuery
 Skills - Web | Object-oriented programming | Network & system administration | DB & Data
+
 Day 00 [subject] [90/100]
 HTML/CSS
 
