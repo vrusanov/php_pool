@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        #circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%
+
+        }
+        .main {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+<div id="circle" style="background: red;">
+
+</div>
+</div>
+<script type="text/javascript">
+    var obj = document.getElementById('circle');
+    obj.onclick = function () {
+        obj.style.width = obj.offsetWidth+10+'px';
+        obj.style.height = obj.offsetHeight+10+'px';
+        if (obj.style.width === '420px')
+        {
+            obj.style.width = '200px';
+            obj.style.height = '200px';
+        }
+        if (obj.style.background === 'green')
+            obj.style.background = 'blue';
+        else if (obj.style.background === 'blue')
+            obj.style.background = 'red';
+        else if (obj.style.background ==='red')
+            obj.style.background = 'green';
+    };
+    obj.onmouseout = function () {
+        if (obj.style.width > '200px')
+        {
+            obj.style.width = obj.offsetWidth - 5 + 'px';
+            obj.style.height = obj.offsetHeight - 5 + 'px';
+        }
+        if (obj.style.background === 'green')
+            obj.style.background = 'blue';
+        else if (obj.style.background === 'blue')
+            obj.style.background = 'red';
+        else if (obj.style.background ==='red')
+            obj.style.background = 'green';
+    }
+
+</script>
+</body>
+</html>

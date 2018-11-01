@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex00</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <style>
+        #circle {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+    <script>
+        const color = ["red", "green", "blue"];
+            var balloon;
+            var index = 0;
+            var size = 200;
+            $(document).ready(function() {
+                balloon = $('#circle');
+                balloon.click(circleClick);
+                balloon.mouseleave(circlenHover);
+            });
+            function circlenHover() {
+                size -= 5;
+                if (size < 200) {
+                    size = 200;
+                }
+                index--;
+                if (index < 0) {
+                    index = 2;
+                }
+                circleRefresh(index);
+            }
+            function circleClick() {
+                size += 10;
+                if (size > 420) {
+                    size = 200;
+                }
+                index++;
+                if (index > 2) {
+                    index = 0;
+                }
+                circleRefresh(index);
+            }
+            function circleRefresh(index){
+                balloon.css('height', size);
+                balloon.css('width', size);
+                balloon.css('backgroundColor', color[index]);
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+<div id="circle"></div>
+</div>
+</body>
+</html>

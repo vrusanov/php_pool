@@ -1,0 +1,131 @@
+body{
+    background: #505050;
+}
+.head{
+    width: 94%;
+    border-radius: 0.4vw;
+    background-color: #909090;
+    box-shadow: 1vw 1vw 1vw #000000;
+    margin-left: 11.95vw;
+    margin-top: 1vw;
+}
+.head_42{
+    padding: 0.5vw;
+    padding-bottom: 0.7vw;
+    padding-top: 0.51vw;
+    width: 22.5vw;
+    height: 5.76vw;
+}
+.loupe{
+    position: absolute;
+    width: 13.5vw;
+    margin-top: 0.5vw;
+    margin-left: 36vw;
+}
+.reload{
+    position: absolute;
+    width: 1vw;
+    margin-left: 49.5vw;
+    margin-top: 0.55vw;
+}
+.close{
+    position: absolute;
+    width: 1vw;
+    margin-left: 49.5vw;
+    margin-top: 5.6vw;
+}
+.col_left{
+    width: 7.31vw;
+    height: 22.25vw;
+    border-radius: 0.5vw;
+    background-color: #909090;
+    box-shadow: 1vw 1vw 1vw #000000;
+    margin-left: 13.5vw;
+    margin-top: 1vw;
+    /*text-align: center;*/
+    position: absolute;
+}
+.elem_col{
+    width: 3.75vw;
+    padding-top: 0.74vw;
+    margin-left: 1.6vw;
+}
+.elem_col_left_2{
+    padding-top: 0.2vw;
+
+}
+.elem_col_right_2{
+    padding-top: 0.2vw;
+
+}
+.elem_col_left_3{
+    padding-top: 0.1vw;
+    border: 5px solid #eb3323;
+    margin-left: 1.4vw;
+}
+.elem_col_left_4{
+    padding-top: 0.1vw;
+}
+.elem_col_left_5{
+    padding-top: 0.1vw;
+}
+.col_center{
+    width: 53.5vw;
+    border-radius: 0.5vw;
+    background-color: #909090;
+    box-shadow: 1vw 1vw 1vw #000000;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 22.5vw;
+
+}
+.cluster{
+    width: 52.48vw;
+    padding: 0.5vw;
+    height: 29.5vw;
+}
+.col_rigth{
+    width: 7.31vw;
+    height: 22.25vw;
+    border-radius: 0.5vw;
+    background-color: #909090;
+    box-shadow: 1vw 1vw 1vw #000000;
+    margin-top: 1vw;
+    margin-left: 77.5vw;
+    /*text-align: center;*/
+    position: absolute;
+}
+.elem_brick_1{
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-left: -0.25vw;
+
+}
+.elem_brick_3{
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-left: -0.25vw;
+
+}
+.elem_brik_end{
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-left: -0.8vw;
+    position: absolute;
+}
+.elem_brik_col_two{
+    margin-top: -0.21vw;
+}
+.alert{
+    width: 27.2vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    box-shadow: 1vw 1vw 1vw #000000;
+    position: absolute;
+    margin-top: 27.5vw;
+    margin-left: 9.55vw;
+    background-color:#7afb76;
+}
+.bonjour{
+    font-size: 11vw;
+}

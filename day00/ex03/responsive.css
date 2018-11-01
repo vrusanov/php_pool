@@ -1,0 +1,45 @@
+body { background-image: url(http://bgfons.com/uploads/notebook/notebook_texture2464.jpg);}
+img{
+	margin-left: 40%;
+	border:1px solid #ccc;
+	border-radius: 10vw;
+	width: 20vw;
+	position: absolute;
+}
+.name_elem {
+    text-align: center;
+}
+h1 {
+	text-align: center;
+	font-family: 'Rubik One', sans-serif;
+	font-size: 50px;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	display: table;
+	margin: 20px auto;
+	color: white;
+	border-radius: 5px;
+	mix-blend-mode: multiply;
+	padding: 5px 10px;
+}
+h2 {
+    margin: 5px 0;
+    font-size: 1.6vw;
+}
+p {
+    margin: 2px;
+    font-size: 1vw;
+}
+.weight_elem {
+    text-align: right;
+    font-size: 0.8vw;
+}
+table {
+    width: 100%;
+}
+td {
+    width: 1%;
+}
+.elem {
+	border-radius: 6px; 
+	border: 0.2vw solid;	
+}

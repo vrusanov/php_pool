@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="todo.js"></script>
+    <style>
+
+        body {
+            background-color: burlywood;
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container div {
+            padding: 10px;
+            /*border: 1px solid black;*/
+            flex: 3;
+        }
+        #ft_list {
+
+            width: 60vw;
+            height: 55vh;
+            background-image: url("http://bgfons.com/uploads/notebook/notebook_texture2464.jpg");
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+
+        .btn {
+            width: 10vw;
+            height: 3vh;
+            align-items: center;
+            border-radius: 5%;
+            background: url("https://www.images.lesyadraw.ru/2013/06/uchimsya_risovat_shtixovka7.jpg");
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+        }
+        h1 {
+
+            margin: 1em 0 0.5em 0;
+            color: #343434;
+            font-weight: normal;
+            font-family: 'Ultra', sans-serif;
+            font-size: 36px;
+            line-height: 42px;
+            text-shadow: 0 3px white, 0 3px #777;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Todolist</h1>
+<div id="ft_list"></div>
+<button onclick="ask()" name="New" class="btn" >New</button>
+</div>
+</body>
+</html>
